@@ -10,3 +10,13 @@ e.g.
 ![Terminal Example](https://i.ibb.co/gZckJW1/Screen-Shot-2021-10-07-at-7-05-37-PM.png)
 
 ### Questions and Tasks
+
+#### Q1 
+
+#### Q2
+
+#### Q3
+
+#### T1
+
+#### T2

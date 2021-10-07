@@ -21,7 +21,7 @@ e.g.
 - Find sentences that have the smallest Euclidean distance or smallest cosine similarity between them.
 - We can then sort the semantic similarity between the input and our database to know which questions will be the most similar to the input question.
 - We have set three different scenearios for each input question, e.g. 1. questions that contain nouns which can also be found in our databaase, 2. questions that contain nouns which cannot be found in our database, 3. questions that do not contain any nouns. With this particular methods, we get to prioritize which group of data should be compared against first to maximize our accuracy.
-- As for the outputs, the program generates three most similar questions from the provided database based on your input for maximum accuracy (you can also adjust the amount of output by simply adding more terms in the `print` function).
+- As for the outputs, the program generates three most similar questions from the provided database based on your input for maximum accuracy (you can also adjust the amount of output by simply adding more terms in the `print` function). Once we have our output questions, we can easily map them to the answer `(A_u)`.
 
 #### Q3 Enter any questions you like by running the file `find_similar_questions.py`, and compare it against your own questions.
 

@@ -6,3 +6,5 @@
 e.g.  
 - `find_similar_questions('how can i activate the NN2055 NN10190?')` 
 - `find_similar_questions('how fast can i run?')`
+
+![Terminal Example](https://ibb.co/v4M0kd5)

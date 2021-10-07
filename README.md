@@ -15,7 +15,7 @@ e.g.
 
 #### Q2 The problem I am seeing with this approach and the dataset given is that the amount of vocabulary is not enough (merely 1500) for a complicated machine learning/ deep learning system, and all of the sentences in general are pretty short and simple. Majority of the sentences are composed of coded nouns. In this case, I feel like the use of complicated machine learning and deep learning models with multiple layers will tend to overfit and generate a lot of noises.
 
-#### Q3 This particular problem can be viewed as finding and solving similarity in highly-dimensional spaces.
+#### Q3 This particular problem can be viewed as finding and solving similarity in highly-dimensional spaces. In this case, the logic of my algorithm is this: - Take a sentence and convert it into vectors. - Take all questions in the provided database and convert them into vectors as well.
 
 #### T1
 

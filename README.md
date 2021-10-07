@@ -11,11 +11,11 @@ e.g.
 
 ### Questions and Tasks
 
-#### Q1 
+#### Q1 In general, the proposed approach is valid and applicable and I am following this exact approach to this problem.
 
-#### Q2
+#### Q2 The problem I am seeing with this approach and the dataset given is that the amount of vocabulary is not enough (merely 1500) for a complicated machine learning/ deep learning system, and all of the sentences in general are pretty short and simple. Majority of the sentences are composed of coded nouns. In this case, I feel like the use of complicated machine learning and deep learning models with multiple layers will tend to overfit and generate a lot of noises.
 
-#### Q3
+#### Q3 This particular problem can be viewed as finding and solving similarity in highly-dimensional spaces.
 
 #### T1
 

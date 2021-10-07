@@ -32,6 +32,9 @@ def find_similar(new_question):
     model = SentenceTransformer(model_name)
 
     nouns_in_new_question = find_nouns(new_question)
+    #print(nouns_in_new_question)
+    #print(len(nouns_in_new_question))
+
     if len(nouns_in_new_question) != 0:
         new_question = strip_nouns(new_question)
         old_sentence_vecs = model.encode(questions_with_nouns_stripped)
@@ -45,11 +48,16 @@ def find_similar(new_question):
         old_sentence_vecs
     )[0]
     sorted_similarity = [s[0] for s in sorted(enumerate(similarity), key=lambda i:i[1])]
+
+    #print(sorted_similarity)
+    #print(sorted_similarity[0])
+
     if len(nouns_in_new_question) != 0:
         print(questions_with_nouns[sorted_similarity[0]])
     else:
-        print(questions_without_nouns)[sorted_similarity[0]]
+        print(questions_without_nouns[sorted_similarity[0]])
 
 #find_nouns('how can i activate the NN2055 NN10190?')
-find_similar('how can i activate the NN2055 NN10190?')
+#find_similar('how can i activate the NN2055 NN10190?')
+find_similar('how fast can i run?')
 #new_nouns = find_nouns('how can i activate the NN2055 NN10190?')

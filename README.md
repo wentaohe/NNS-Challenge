@@ -26,5 +26,6 @@ e.g.
 #### Q3 Enter any questions you like by running the file `find_similar_questions.py`, and compare it against your own questions.
 - `find_similar_questions('how can i activate the NN2055 NN10190?')` 
 - `find_similar_questions('how fast can i run?')`
+- `find_similar_questions('how tall am I')`
 
 #### T2 In general we are able to find pretty accurate questions in related to the input questions since we already set three possible scenarios in order to narrow down our scope as well as prioritizing questions in our database that potentionally have a higher chance of matching.

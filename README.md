@@ -23,6 +23,8 @@ e.g.
 - We have set three different scenearios for each input question, e.g. 1. questions that contain nouns which can also be found in our databaase, 2. questions that contain nouns which cannot be found in our database, 3. questions that do not contain any nouns. With this particular methods, we get to prioritize which group of data should be compared against first to maximize our accuracy.
 - As for the outputs, the program generates three most similar questions from the provided database based on your input for maximum accuracy (you can also adjust the amount of output by simply adding more terms in the `print` function). Once we have our output questions, we can easily map them to the answer `(A_u)`.
 
-#### Q3 Enter any questions you like by running the file `find_similar_questions.py`, - `find_similar_questions('how can i activate the NN2055 NN10190?')` - `find_similar_questions('how fast can i run?')`and compare it against your own questions.
+#### Q3 Enter any questions you like by running the file `find_similar_questions.py`, and compare it against your own questions.
+- `find_similar_questions('how can i activate the NN2055 NN10190?')` 
+- `find_similar_questions('how fast can i run?')`
 
 #### T2 In general we are able to find pretty accurate questions in related to the input questions since we already set three possible scenarios in order to narrow down our scope as well as prioritizing questions in our database that potentionally have a higher chance of matching.

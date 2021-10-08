@@ -14,14 +14,15 @@ for x in range(len(old_questions)):
 
 questions_without_nouns = []
 questions_with_nouns = []
-questions_with_nouns_stripped = []
+questions_with_nouns_stripped = [] 
+#stripped all the coded nouns to help with a more accurate understanding of words and syntax
 
 for x in range(len(old_nouns_dictionary)):
     if len(old_nouns_dictionary[x])==0:
         questions_without_nouns.append(old_questions[x])
     else:
         questions_with_nouns_stripped.append(strip_nouns(old_questions[x]))
-        questions_with_nouns.append(old_questions[x])
+        questions_with_nouns.append(old_questions[x]) #keep an original list of questions
 
 def find_similar_questions(new_question):
     
@@ -55,7 +56,8 @@ def find_similar_questions(new_question):
         [new_sentence_vecs],
         old_sentence_vecs
     )[0]
-    sorted_similarity = [s[0] for s in sorted(enumerate(similarity), key=lambda i:i[0])]
+    sorted_similarity = [s[0] for s in sorted(enumerate(similarity), key=lambda i:i[0])] 
+    #so we get to know the original index of these similarities, easy for us to find its related question
 
     if len(nouns_in_new_question) != 0 and len(questions_index_with_the_same_nouns) != 0:
         print('Potential related questions are:')

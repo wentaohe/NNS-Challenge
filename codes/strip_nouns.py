@@ -1,4 +1,5 @@
 def strip_nouns(question):
+    
     #q = question.replace('?', '')
     words = question.split(' ')
     nouns = []
